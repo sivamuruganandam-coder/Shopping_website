@@ -514,13 +514,12 @@ nav .nav .links:hover{
     background-color:  rgb(65, 213, 107);
 }
 
-@media screen and (max-width:480px){
+@media screen and (max-width:600px){
     .grid{
         width: 100vw;
         display: grid;
         margin-top: 20px;
-        margin-left: 60px;
-        margin-right: auto;
+        margin-left: 110px;
         margin-bottom: 20px;    
         grid-template-columns: auto;
         grid-gap: 20px;
