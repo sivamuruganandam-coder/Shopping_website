@@ -537,3 +537,26 @@ nav .nav .links:hover{
         display: none;
     }
 }
+
+@media screen and (max-width:400px){
+    .grid{
+        width: 100vw;
+        display: grid;
+        margin-top: 20px;
+        margin-left: 110px;
+        margin-bottom: 20px;    
+        grid-template-columns: auto;
+        grid-gap: 20px;
+    }
+    header{
+        background-color: rgb(219, 212, 212);
+        font-size: 12px;
+        font-weight: 400;
+        position: sticky;
+        top: 0;
+        z-index: 1;    
+    }
+    .nav{
+        display: none;
+    }
+}
