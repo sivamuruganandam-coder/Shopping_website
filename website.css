@@ -10,7 +10,8 @@
 body{
     margin: 0;
     padding: 0 ; 
-    background: linear-gradient(to bottom, rgb(89, 89, 216),tomato); 
+    /*background: linear-gradient(to bottom, rgb(89, 89, 216),tomato); */
+    background-color: white;
     background-repeat:no-repeat;
     background-size: contain; 
     overflow-x: hidden;  
